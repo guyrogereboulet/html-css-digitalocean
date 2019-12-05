@@ -1,5 +1,7 @@
 /* UTILITY */
 
+
+/* HEADER */
 .header_top {
   position: fixed;
   top: 0;
@@ -10,4 +12,12 @@
   background-color: #2C3E50;
   line-height: 80px;
   z-index: 3;
+}
+
+
+.header_bottom {
+  background-image: url(../img/bg_header.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
