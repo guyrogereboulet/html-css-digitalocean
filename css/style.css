@@ -23,9 +23,24 @@
 }
 
 .simplest {
- margin: 50px;
+ margin-top: 50px;
+ margin-bottom: 50px;
 }
 
 .deloy {
- margin: 50px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+
+/* MAIN */
+#logo {
+  padding-top: 100px;
+}
+
+.logo_box {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: yellow;
 }
