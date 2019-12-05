@@ -14,10 +14,18 @@
   z-index: 3;
 }
 
-
 .header_bottom {
   background-image: url(../img/bg_header.jpg);
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 80px;
+}
+
+.simplest {
+ margin: 50px;
+}
+
+.deloy {
+ margin: 50px;
 }
