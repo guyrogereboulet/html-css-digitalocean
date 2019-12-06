@@ -63,3 +63,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+#designed {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F3F5F9;
+}
+
+.designed_img {
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
