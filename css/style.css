@@ -1,4 +1,7 @@
 /* UTILITY */
+body{
+font-family: 'Roboto', sans-serif;
+}
 
 
 /* HEADER */
@@ -64,14 +67,41 @@ font-size: 13.5px;
 .simplest {
  margin-top: 50px;
  margin-bottom: 50px;
+ color:#FFFF;
+ padding: 50px;
 }
 
 .deloy {
+ height: 400px;
  margin-top: 50px;
  margin-bottom: 50px;
+ background-color: white;
+ border-radius: 10px;
+ padding: 20px;
 }
 
+.blue {
+  color: #0049FF;
+}
 
+.black {
+  color: black;
+}
+
+.btn_create {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn_google {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form_deloy {
+  margin-top: 10px;
+  box-shadow: none;
+}
 
 
 /* MAIN */
