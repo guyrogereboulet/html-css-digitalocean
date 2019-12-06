@@ -36,6 +36,7 @@
 /* MAIN */
 #logo {
   padding-top: 100px;
+  background-color: #F3F5F9;
 }
 
 .logo_box {
@@ -43,4 +44,22 @@
   width: 100%;
   margin-bottom: 30px;
   background-color: yellow;
+}
+
+#deloy {
+  padding-top: 100px;
+}
+
+.riga_uno {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.riga_due {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
