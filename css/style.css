@@ -48,6 +48,11 @@ font-size: 13.5px;
   padding-left: 5px;
 }
 
+.menu_burger {
+  color: #0049FF;
+  font-size: 30px;
+}
+
 .header_bottom {
   background-image: url(../img/bg_header.jpg);
   height: 600px;
