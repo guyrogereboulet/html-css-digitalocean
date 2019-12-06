@@ -1,6 +1,6 @@
 /* UTILITY */
-body{
-font-family: 'Roboto', sans-serif;
+body {
+ font-family: 'Roboto', sans-serif;
 }
 
 
@@ -68,11 +68,20 @@ font-size: 13.5px;
  margin-top: 50px;
  margin-bottom: 50px;
  color:#FFFF;
- padding: 50px;
+ padding: 40px;
+}
+
+.simplest h1 {
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.simplest p {
+ font-size: 20px;
+ color:rgba(255,255,255,0.7);
 }
 
 .deloy {
- height: 400px;
  margin-top: 50px;
  margin-bottom: 50px;
  background-color: white;
@@ -91,11 +100,16 @@ font-size: 13.5px;
 .btn_create {
   width: 100%;
   margin-top: 10px;
+  background-color: #0049FF;
+  color: white;
+  font-weight: bold;
 }
 
 .btn_google {
   width: 100%;
   margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .form_deloy {
@@ -115,6 +129,15 @@ font-size: 13.5px;
   width: 100%;
   margin-bottom: 30px;
   background-color: yellow;
+}
+
+.logo_box img {
+  height: 100px;
+  padding: 11px;
+}
+
+.innovative {
+ text-transform: uppercase;
 }
 
 #deloy {
