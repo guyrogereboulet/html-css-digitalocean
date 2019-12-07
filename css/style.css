@@ -136,14 +136,8 @@ font-size: 13.5px;
   padding: 11px;
 }
 
-.logo_box .splunk {
-  height: 50px;
-  padding: 11px;
-  margin-top: 27px;
-}
-
 .innovative {
- text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .innovative {
@@ -157,7 +151,7 @@ font-size: 13.5px;
   padding-bottom: 20px;
 }
 
-#deloy {
+#deploy {
   padding-top: 100px;
 }
 
@@ -168,11 +162,47 @@ font-size: 13.5px;
   padding-bottom: 20px;
 }
 
+.riga_uno ul {
+  list-style: none;
+  border-left: 1px solid grey;
+}
+
+.riga_uno ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+
+.riga_uno h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.riga_uno p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: grey;
+}
+
 .riga_due {
   width: 100%;
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.deploy_text h2 {
+  font-weight: bold;
+  color: black;
+}
+
+.deploy_text p {
+  font-weight: bold;
+  color: grey;
 }
 
 #designed {
@@ -185,6 +215,16 @@ font-size: 13.5px;
   height: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.designed_text h2 {
+  font-weight: bold;
+  color: black;
+}
+
+.designed_text p {
+  font-weight: bold;
+  color: grey;
 }
 
 #features {
@@ -270,6 +310,7 @@ font-size: 13.5px;
     padding: 11px;
     text-align: center;
   }
+
 
 }
 
