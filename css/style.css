@@ -124,6 +124,19 @@ font-size: 13.5px;
   font-weight: bold;
 }
 
+.google img {
+  height: 15px;
+}
+
+.text_google {
+  display: inline-block;
+  text-align: center;
+}
+
+.google {
+  float: left;
+}
+
 .form_deloy {
   margin-top: 10px;
   box-shadow: none;
