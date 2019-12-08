@@ -157,7 +157,7 @@ font-size: 13.5px;
 }
 
 .logo_box img {
-  height: 100px;
+  height: 100px;;
   padding: 11px;
 }
 
@@ -174,6 +174,11 @@ font-size: 13.5px;
 
 .logo_link {
   padding-bottom: 20px;
+}
+
+ #logo .logo_box .splunk {
+  margin-top: 28px;
+  height: 50px;
 }
 
 #deploy {
@@ -318,16 +323,38 @@ font-size: 13.5px;
   margin: 20px 0;
 }
 
+.table_left .row {
+  border-bottom: 1px solid white;
+  line-height: 40px;
+}
+
+.table_left .row:last-child {
+  border-bottom: 0;
+  line-height: 40px;
+}
+
 .table_right {
   font-weight: bold;
   padding-left: 10px;
   margin: 20px 0;
 }
 
+.table_right .row {
+  border-bottom: 1px solid white;
+  line-height: 40px;
+}
+
+.table_right .row:last-child {
+  border-bottom: 0;
+  line-height: 40px;
+}
+
 .service_title {
   font-weight: bold;
   color: white;
 }
+
+
 
 
 #development {
@@ -382,7 +409,7 @@ font-size: 13.5px;
 
 
 #get {
-  background-color: #0049FF;
+  background-color: #0038B2;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -457,12 +484,22 @@ footer {
    color:rgba(255,255,255,0.7);
   }
 
+  .logo_box {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
   .logo_box img {
     display: inline-block;
     height: 60px;
-    padding: 11px;
-    text-align: center;
+    padding: 10px;
   }
+
+  #logo .logo_box .splunk {
+   height: 45px;
+   margin-top: 11px;
+ }
+
 
   .freccia {
     display: none;
@@ -538,15 +575,30 @@ footer {
     margin-top: 150px;
   }
 
+  .logo_box img {
+    height: 70px;
+    padding: 11px;
+  }
+
+  #logo .logo_box .splunk {
+   margin-top: 13px;
+   height: 45px;
+ }
+
 }
 
 
 @media all and (min-width: 992px) and (max-width: 1200px) {
 
   .logo_box img {
-    height: 70px;
+    height: 100px;
     padding: 11px;
   }
+
+  #logo .logo_box .splunk {
+   margin-top: 28px;
+   height: 50px;
+ }
 
   .designed_img {
     height: 400px;
