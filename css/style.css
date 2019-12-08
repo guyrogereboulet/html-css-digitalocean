@@ -223,6 +223,10 @@ font-size: 13.5px;
   background-color: #F3F5F9;
 }
 
+#designed .freccia .icona {
+  margin-top: 210px;
+}
+
 .icona {
   font-size: 40px;
 }
@@ -320,15 +324,66 @@ font-size: 13.5px;
 }
 
 .development_img {
-  height: 200px;
+  height: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.development_text {
+  text-align: center;
+  color: #0F2656;
+}
+
+.rockerbox {
+  background-color: white;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.rockerbox a {
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.rockerbox p {
+  font-weight: bold;
+  color: grey;
+}
+
+.rockerbox h5 {
+  font-weight: bold;
+  color: #0F2656;
+}
+
+#development .freccia .icona {
+  margin-top: 210px;
+}
+
+.rockerbox img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 
 #get {
   background-color: #0049FF;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+#get h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.get_button {
+  background-color: white;
+  color: #0049FF;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 /* FOOTER */
@@ -387,7 +442,8 @@ font-size: 13.5px;
   }
 
   .designed_img {
-    height: 200px;
+    height: 100%;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -399,6 +455,12 @@ font-size: 13.5px;
     color: #0049FF;
     margin-top: 100px;
   }
+
+  .rockerbox img {
+    height: 100%;
+    width: 100%;
+  }
+
 
 }
 
@@ -445,6 +507,10 @@ font-size: 13.5px;
     margin-top: 100px;
   }
 
+  #designed .freccia .icona {
+    margin-top: 150px;
+  }
+
 }
 
 
@@ -455,5 +521,12 @@ font-size: 13.5px;
     padding: 11px;
   }
 
+  .designed_img {
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
 }
