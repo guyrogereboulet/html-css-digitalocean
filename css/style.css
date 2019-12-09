@@ -462,15 +462,28 @@ footer {
 }
 
 .chatbar_left {
+  position: relative;
   float: right;
   border-radius: 5px;;
   display: inline-block;
-  width: 18%;
+  width: 300px;
   height: 60px;
   margin: 10px;
   padding: 10px;
   color: #0F2656;
   background-color: white;
+  box-shadow: 10px 10px 31px -11px grey;
+}
+
+.chatbar_left:after {
+	content: '';
+	position: absolute;
+  transform:rotate(45deg);
+  background-color:White;
+  height: 15px;
+  width: 15px;
+  bottom: 25%;
+  left: 97%;
 }
 
 .chatbar_right {
@@ -597,6 +610,76 @@ footer {
    font-size: 80%;
   }
 
+
+  #chatbar {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+
+  .chatbar_left {
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    min-width: 20%;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    color: #0F2656;
+    background-color: white;
+    box-shadow: 10px 10px 31px -11px grey;
+  }
+
+  .chatbar_left:after {
+  	content: '';
+  	position: absolute;
+    transform:rotate(45deg);
+    background-color:White;
+    height: 15px;
+    width: 15px;
+    bottom: 25%;
+    left: 97%;
+  }
+
+  .chatbar_right {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-right: 100%;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/squalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #0049FF;
+    border-radius: 5px;
+
+  }
+
+  .number {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 75%;
+    left: 75%;
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  .help_text {
+    font-weight: bold;
+  }
 }
 
 
@@ -645,6 +728,82 @@ footer {
   #designed .freccia .icona {
     margin-top: 150px;
   }
+
+
+  #chatbar {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+
+  .chatbar_left {
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    min-width: 20%;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    color: #0F2656;
+    background-color: white;
+    box-shadow: 10px 10px 31px -11px grey;
+  }
+
+  .chatbar_left:after {
+  	content: '';
+  	position: absolute;
+    transform:rotate(45deg);
+    background-color:White;
+    height: 15px;
+    width: 15px;
+    bottom: 25%;
+    left: 97%;
+  }
+
+  .chatbar_right {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/squalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #0049FF;
+    border-radius: 5px;
+
+  }
+
+  .number {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 75%;
+    left: 75%;
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  .help_text {
+    font-weight: bold;
+  }
+
+
+
+
+
 
 }
 
